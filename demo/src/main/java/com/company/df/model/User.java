@@ -1,4 +1,4 @@
-package model;
+package com.company.df.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
