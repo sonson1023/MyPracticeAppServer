@@ -25,4 +25,20 @@ dependencies {
 	compile group: 'org.springframework', name: 'spring-web', version: '5.1.4.RELEASE'
 
 	
+	// https://mvnrepository.com/artifact/taglibs/standard
+	//compile group: 'taglibs', name: 'standard', version: '1.1.2'
+	
+	compile("javax.servlet:jstl")
+	compile("org.apache.tomcat.embed:tomcat-embed-jasper")
+	
+	// https://mvnrepository.com/artifact/commons-io/commons-io
+	compile group: 'commons-io', name: 'commons-io', version: '2.5'
+
+
+
+	
+
+
+
+	
 }
