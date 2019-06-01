@@ -22,15 +22,15 @@ public class UserController {
 	public @ResponseBody String addNewUser (@RequestParam String name
 			, @RequestParam String email) {
 		
-		User n = new User();
-		n.setName(name);
-		n.setEmail(email);
-		try {
-			userRepository.save(n);	
-		} catch (Exception e) {
-			// TODO: handle exception
-			return "error :  " + e.getMessage();
-		}
+//		User n = new User();
+//		n.setName(name);
+//		n.setEmail(email);
+//		try {
+//			userRepository.save(n);	
+//		} catch (Exception e) {
+//			// TODO: handle exception
+//			return "error :  " + e.getMessage();
+//		}
 		
 		return "Saved";
 	}
