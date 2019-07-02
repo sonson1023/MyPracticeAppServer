@@ -26,11 +26,18 @@ public class DemoApplication implements CommandLineRunner
 			pbeEnc.setAlgorithm("PBEWithMD5AndDES");
 			pbeEnc.setPassword("test"); //2번 설정의 암호화 키를 입력
 			
-			String enc = pbeEnc.encrypt("1234"); //암호화 할 내용
+			String enc = pbeEnc.encrypt("springuser"); //암호화 할 내용
 			System.out.println("enc = " + enc); //암호화 한 내용을 출력
 			
 			//테스트용 복호화
 			String des = pbeEnc.decrypt(enc);
+			System.out.println("des = " + des);
+			
+			 enc = pbeEnc.encrypt("ThePassword"); //암호화 할 내용
+			System.out.println("enc = " + enc); //암호화 한 내용을 출력
+			
+			//테스트용 복호화
+			 des = pbeEnc.decrypt(enc);
 			System.out.println("des = " + des);
 	   }
 }
