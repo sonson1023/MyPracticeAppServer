@@ -49,3 +49,10 @@ dependencies {
 	compile "com.github.ulisesbocchio:jasypt-spring-boot-starter:1.17"
 	
 }
+
+task print{
+	doLast{
+        println "gitlab push complete"
+        println "gitlab develop push complete"
+    }
+}
