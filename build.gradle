@@ -44,8 +44,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	
 	
-	//설정파일 암호화 (Configuration Encryption)
-	//Jsaypt(Java Simplified Encryption)
+	//설정파일 암호화 (Configuration Encryption)Jsaypt(Java Simplified Encryption)
 	compile "com.github.ulisesbocchio:jasypt-spring-boot-starter:1.17"
 	
 }
