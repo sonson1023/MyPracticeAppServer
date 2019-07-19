@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
 	 implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	 compile("org.springframework.boot:spring-boot-starter-data-jpa")
 	// implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	runtimeOnly 'mysql:mysql-connector-java'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -46,6 +47,14 @@ dependencies {
 	
 	//설정파일 암호화 (Configuration Encryption)Jsaypt(Java Simplified Encryption)
 	compile "com.github.ulisesbocchio:jasypt-spring-boot-starter:1.17"
+	
+	
+	//hibernate
+		implementation 'org.projectlombok:lombok'
+
+	//// https://mvnrepository.com/artifact/com.google.guava/guava
+compile group: 'com.google.guava', name: 'guava', version: '28.0-jre'
+	
 	
 }
 
