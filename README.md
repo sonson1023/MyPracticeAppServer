@@ -14,4 +14,4 @@ My practice server
 #etc
  - docker instal
   - sudo yum -y install docker
->>>>>>> dcdfbf2627474db0596f2d4851ece6dee242ab7a
+>>>>>>>
